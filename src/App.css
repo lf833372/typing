@@ -1,44 +1,66 @@
 .restart {
-  outline: none;
-  border: 2px solid transparent;
-  color: #000;
-  background-color: #4acb8a;
-  border-radius: 5px;
-  font-weight: 500;
-  margin-left: .5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 .5rem;
+    outline: none;
+    border: 2px solid transparent;
+    color: #000;
+    background-color: #4acb8a;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
 }
 
 .restart:focus {
-  border: 2px solid #fff;
+    border: 2px solid #fff;
 }
 
 .controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.info {  
-  font-family: "Roboto Mono", monospace;
+.info {
+    font-family: "Roboto Mono", monospace;
 }
 
 .finish {
-  color: #4acb8a;
+    color: #4acb8a;
+    margin-right: 0.5rem;
 }
 
 .text {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem 0;
-  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    width: 100%;
 }
 
 .inputs {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 0.3rem 0.6rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1.1rem;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.label {
+    color: #3cc5f8;
+    margin-left: 1rem;
+}
+
+.nolabel {
+    color: #fff;
 }
